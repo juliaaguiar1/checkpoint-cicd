@@ -10,5 +10,9 @@ def home():
 def sobre():
     return "Projeto desenvolvido para o checkpoint de Integração e Entrega Contínua."
 
+@app.route("/status")
+def status():
+    return "Sistema online e funcionando corretamente!"
+
 if __name__ == "__main__":
     app.run(debug=True)
