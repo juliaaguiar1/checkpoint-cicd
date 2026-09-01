@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Checkpoint CI/CD funcionando com sucesso!"
+    return "Checkpoint CI/CD desenvolvido pela Julia!!"
 
 @app.route("/sobre")
 def sobre():
